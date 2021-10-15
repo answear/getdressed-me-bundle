@@ -1,0 +1,52 @@
+{
+  "name": "answear/getdressed-me-bundle",
+  "description": "GetdressedMeBundleDescription integration for Symfony.",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*",
+    "ext-soap": "*",
+    "marc-mabe/php-enum": "^4.3",
+    "symfony/http-kernel": "^4.4",
+    "webmozart/assert": "^1.3",
+    "php-http/guzzle6-adapter": "^1.1",
+    "symfony/serializer": "^4.4",
+    "symfony/property-access": "^4.4"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "phpunit/phpunit": "^8.0",
+    "symfony/phpunit-bridge": "^5.0",
+    "phpro/grumphp": "^0.20",
+    "friendsofphp/php-cs-fixer": "^2.16",
+    "phpstan/phpstan": "^0.12.32",
+    "phpstan/phpstan-webmozart-assert": "^0.12.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Answear\\GetdressedMeBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Answear\\GetdressedMeBundle\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "GrumPHP\\Composer\\DevelopmentIntegrator::integrate"
+    ],
+    "post-update-cmd": [
+      "GrumPHP\\Composer\\DevelopmentIntegrator::integrate"
+    ]
+  },
+  "extra": {
+    "grumphp": {
+      "config-default-path": "grumphp.yaml"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
