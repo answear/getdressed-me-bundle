@@ -4,11 +4,10 @@
   "type": "symfony-bundle",
   "license": "MIT",
   "require": {
-    "php": ">=7.4",
+    "php": "^7.4 || ^8.0",
     "ext-json": "*",
-    "ext-soap": "*",
     "marc-mabe/php-enum": "^4.3",
-    "symfony/http-kernel": "^4.4",
+    "symfony/http-kernel": "^4.4 || ^5.0",
     "webmozart/assert": "^1.3",
     "php-http/guzzle6-adapter": "^1.1",
     "symfony/serializer": "^4.4",
