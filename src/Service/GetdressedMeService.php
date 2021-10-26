@@ -12,6 +12,8 @@ use Symfony\Component\HttpFoundation\Response;
 
 class GetdressedMeService implements GetdressedMeServiceInterface
 {
+    private const OUTFITS_ENDPOINT = '/v1/outfits?store_id=%s&id=%s';
+
     private Client $client;
     private ConfigProvider $configProvider;
 
@@ -23,7 +25,7 @@ class GetdressedMeService implements GetdressedMeServiceInterface
 
     public function getOutfits(GetOutfits $request): OutfitsResponse
     {
-        $endpoint = \sprintf('/v1/outfits?store_id=%s&id=%s', $this->configProvider->getStoreId(), $request->getProductId());
+        $endpoint = \sprintf(self::OUTFITS_ENDPOINT, $this->configProvider->getStoreId(), $request->getProductId());
 
         $response = $this->client->request($endpoint);
 
