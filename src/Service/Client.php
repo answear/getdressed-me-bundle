@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Answear\GetdressedMeBundle\Service;
 
 use Answear\GetdressedMeBundle\Exception\ServiceUnavailable;
+use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\RequestOptions;
 use Psr\Http\Message\ResponseInterface;
@@ -19,10 +20,10 @@ class Client
         $this->configProvider = $configProvider;
     }
 
-    public function request(string $endpoint): ResponseInterface
+    public function request(string $endpoint, ?ClientInterface $client = null): ResponseInterface
     {
         try {
-            $client = new \GuzzleHttp\Client(
+            $client = $client ?? new \GuzzleHttp\Client(
                 [
                     RequestOptions::TIMEOUT => $this->configProvider->getRequestTimeout(),
                     RequestOptions::CONNECT_TIMEOUT => $this->configProvider->getConnectionTimeout(),
