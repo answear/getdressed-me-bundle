@@ -1,0 +1,100 @@
+{
+    "outfits": [
+        [
+            {
+                "clientProductId": "21249",
+                "productName": "Answear - some product",
+                "productNameLang": "hu",
+                "productPageUrl": "https://yoursite.dev/p/answear-hatizsak-21249",
+                "mainImageUrl": "https://img.yoursite.dev/i/855x1290/WZ18-PKD016_90X_F1.jpg?v=1552489483",
+                "price": 65990.0,
+                "priceCurrency": "HUF",
+                "salePrice": 65990.0
+            },
+            {
+                "clientProductId": "33855",
+                "productName": "Somebrand - product",
+                "productNameLang": "hu",
+                "productPageUrl": "https://yoursite.dev/p/somebrand-prod-33855",
+                "mainImageUrl": "https://img.yoursite.dev/i/855x1290/XX-OBDN31_99X_F1.jpg?v=1552489483",
+                "price": 18990.0,
+                "priceCurrency": "HUF",
+                "salePrice": 18990.0
+            }
+        ],
+        [
+            {
+                "clientProductId": "21249",
+                "productName": "Answear - H\u00e1tizs\u00e1k",
+                "productNameLang": "hu",
+                "productPageUrl": "https://yoursite.dev/p/answear-hatizsak-21249",
+                "mainImageUrl": "https://img.yoursite.dev/i/855x1290/WZ18-PKD016_90X_F1.jpg?v=1552489483",
+                "price": 65990.0,
+                "priceCurrency": "HUF",
+                "salePrice": 65990.0
+            },
+            {
+                "clientProductId": "33259",
+                "productName": "SomeBrand - Mokaszin",
+                "productNameLang": "hu",
+                "productPageUrl": "https://yoursite.dev/p/SomeBrand-mokaszin-33259",
+                "mainImageUrl": "https://img.yoursite.dev/i/855x1290/XX-OBD2UU_83X_F1.jpg?v=1552489483",
+                "price": 3490.0,
+                "priceCurrency": "HUF",
+                "salePrice": 3490.0
+            },
+            {
+                "clientProductId": "43921",
+                "productName": "Some brand Y - Farmer",
+                "productNameLang": "hu",
+                "productPageUrl": "https://yoursite.dev/p/some-brand-y-farmer-43921",
+                "mainImageUrl": "https://img.yoursite.dev/i/855x1290/SS18-SJD088_55X_F1.jpg?v=1552489483",
+                "price": 11990.0,
+                "priceCurrency": "HUF",
+                "salePrice": 11990.0
+            },
+            {
+                "clientProductId": "10185",
+                "productName": "Some brand X - Pul\u00f3ver",
+                "productNameLang": "hu",
+                "productPageUrl": "https://yoursite.dev/p/some-brand-pulover-10185",
+                "mainImageUrl": "https://img.yoursite.dev/i/855x1290/XX-SWD07J_99X_F1.jpg?v=1552489483",
+                "price": 14990.0,
+                "priceCurrency": "HUF",
+                "salePrice": 14990.0
+            }
+        ],
+        [
+            {
+                "clientProductId": "21249",
+                "productName": "Answear - product",
+                "productNameLang": "hu",
+                "productPageUrl": "https://yoursite.dev/p/answear-product-21249",
+                "mainImageUrl": "https://img.yoursite.dev/i/855x1290/WZ18-PKD016_90X_F1.jpg?v=1552489483",
+                "price": 65990.0,
+                "priceCurrency": "HUF",
+                "salePrice": 65990.0
+            },
+            {
+                "clientProductId": "3757",
+                "productName": "SomeBrand - xxx",
+                "productNameLang": "hu",
+                "productPageUrl": "https://yoursite.dev/p/SomeBrand-product-3757",
+                "mainImageUrl": "https://img.yoursite.dev/i/855x1290/XX-OBD3JZ_99X_F1.jpg?v=1552489483",
+                "price": 9490.0,
+                "priceCurrency": "HUF",
+                "salePrice": 4990.0
+            }
+        ]
+    ],
+    "product": {
+        "clientProductId": "18877",
+        "productName": "Some brand - product",
+        "productNameLang": "hu",
+        "productPageUrl": "https://yoursite.dev/p/some-product-18877",
+        "mainImageUrl": "https://img.yoursite.dev/i/855x1290/XX-KUD03K_99X_F1.jpg?v=1552489483",
+        "price": 23990.0,
+        "priceCurrency": "HUF",
+        "salePrice": 15990.0
+    }
+}
